@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'FuturaPTDemi';
+    src: url('../fonts/FuturaPTDemi.eot');
+    src: url('../fonts/FuturaPTDemi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPTDemi.woff') format('woff'),
+    url('../fonts/FuturaPTDemi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AlFresco';
+    src: local('../fonts/AlFresco Bold'), local('AlFresco-Bold'),
+        url('../fonts/AlFresco-Bold.woff2') format('woff2'),
+        url('../fonts/AlFresco-Bold.woff') format('woff'),
+        url('../fonts/AlFresco-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Bask';
+    src: url('../fonts/BaskervilleSerial-Black.eot');
+    src: local('☺'), url('../fonts/BaskervilleSerial-Black.woff') format('woff'), url('../fonts/BaskervilleSerial-Black.ttf') format('truetype'), url('../fonts/BaskervilleSerial-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

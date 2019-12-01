@@ -1,0 +1,135 @@
+@import 'fonts'
+
+a
+    text-decoration: none
+    &:link, 
+    &:visited
+        color: #fff
+
+* 
+    box-sizing: border-box
+
+li
+    list-style: none
+
+
+.container
+    background-color: #aebbc7
+    width: 100%
+    height: 100%
+    position: fixed
+    top: 0
+    left: 0
+    display: flex
+    align-items: center
+    padding-left: 25px
+    // align-content: center
+    justify-content: center
+    // overflow: auto 
+
+.inner
+    width: 950px  
+    height: 530px  
+    background-image: url('../img/bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 15px
+    padding: 35px 40px
+.header
+    display: flex
+    justify-content: space-between
+    &__menu
+        margin-top: -5px
+        align-items: center
+        li+li
+            padding-left: 20px
+        .menu-item
+            float: left
+            text-transform: uppercase
+            font-family: 'FuturaPTDemi'
+            font-size: 10px
+            letter-spacing: 0.5px
+            a 
+                color: #c0c0c0
+                &:hover
+                    color: #fff
+            &.selected
+                a
+                    color: #fff
+.text
+    margin-top: -30px
+    margin-left: 25px
+    &__number
+        margin-left: -12px
+        font-family: 'Bask'
+        font-size: 110px
+        color: #632a42d6
+    &__title
+        color: #fff
+        margin-top: -50px
+        .beauty
+            font-family: 'AlFresco'
+            font-size: 46px
+            line-height: 0px
+        .castle
+            font-family: 'Bask'
+            font-size: 45px
+            line-height: 0
+            letter-spacing: 0.3px
+            margin-top: -5px
+    &__content
+        width: 380px
+        font-family: 'FuturaPTDemi'
+        font-size: 10px
+        line-height: 20px
+        letter-spacing: 0.5px
+        margin-top: -5px
+        padding-left: 45px
+        padding-bottom: 15px
+        border-left: 1px solid rgba(255, 255, 255, 0.3)
+        color: #fff
+.footer
+    display: flex
+    justify-content: space-between
+    &__gallary
+        width: 800px
+        height: 533px
+        // margin-left: 10px
+    &__menu
+        width: 400px
+        margin-top: -20px
+        text-align: right
+        padding-top: 20px
+        &-item
+            font-family: 'Bask'
+            font-size: 12px
+            letter-spacing: 1px
+            margin-bottom: 5px
+            margin-right: 20px
+            a
+                color: rgba(255, 255, 255, 0.6)
+                &:hover
+                    font-size: 20px
+                    line-height: 12px
+                    transition: all 0.3s
+            &.selected
+                font-size: 20px
+                // margin-right: 0
+                // margin-top: -10px
+                color: #fff
+                position: relative
+                a
+                    color: #fff                    
+                &:after
+                    content: "."
+                    font-size: 30px
+                    margin-top: -14px
+                    padding-left: 12px
+                    position: absolute
+                    
+
+        
+
+
+    
